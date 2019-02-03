@@ -29,4 +29,8 @@ public class Algorytmy {
         //wynik
         return wynik;
     }
+
+
+
+
 }

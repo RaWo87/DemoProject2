@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df5482a9-ce61-4bfb-b5a0-54b9db857681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/TDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/UserComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoProjektGit" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoProjektGit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Algorytmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Algorytmy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien12/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Algorytmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Algorytmy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/Tester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Algorytmy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="22">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +93,51 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dzien11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dzien11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dzien11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dzien11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dzien11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dzien11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dzien11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dzien11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dzien11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dzien11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549113739347" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Desktop/UserService1/Kolekcje zadania" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,8 +186,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16066837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1600257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -215,8 +263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Algorytmy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="22">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
