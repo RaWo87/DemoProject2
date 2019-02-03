@@ -25,7 +25,7 @@ public class Algorytmy {
         }
         System.out.println("minm: "+min+" max: "+max+"  index min: "+ indexMin + " index max: "+ indexMax);
     }
-
+//### ZAD6
     public void evenOdd(){
         System.out.println("podaj szereg liczb, 0 konczy wprowadzanie");
         ArrayList<Integer> lista = new ArrayList<>();
@@ -82,8 +82,11 @@ public class Algorytmy {
     public void tekstAnalyzer(String tekst){
         List<String> wordList = new LinkedList<>();
         String[] temp = tekst.split(" +");
-        String longest="";
         String shortest=temp[0];
+
+        String longest="", mostPopular="", leastPopular="";
+        int currentCount=0, maxCount=0, minCount=temp.length;
+
         for (String word: temp
              ) {
             wordList.add(word);
@@ -94,10 +97,49 @@ public class Algorytmy {
             if(word.length()< shortest.length()){
                 shortest=word;
             }
+            for (String comparable: temp
+                 ) {
+                if(word.equals(comparable)){
+                    currentCount++;
+                }
+            }if(currentCount > maxCount){
+                maxCount = currentCount;
+                mostPopular = word;
+            }if(currentCount < minCount){
+                minCount = currentCount;
+                leastPopular = word;
+            }currentCount=0;
         }
 
-        System.out.println("nadluzsze slowo: "+ longest+" najkrotsze slowo: "+ shortest+"\nilosc slow: " +wordList.size());
+        System.out.println("nadluzsze slowo: " + longest + " najkrotsze slowo: " + shortest +
+                "\nilosc slow: " + wordList.size() +
+                "\n najczescie uzywane: " + mostPopular + "wystepuje " + maxCount + " razy" +
+                "\n najzadziej uzywane: " + leastPopular + "wystepuje " + minCount + " razy");
+
+        System.out.println(Collections.frequency(wordList,"ala"));
     }
 
+    //### ZAD3 intermidiate Fibonnacie
 
+    public int nthFibonacci(int ile){
+        if(ile ==0)return 0;
+        if(ile ==1)return 1;
+        return nthFibonacci(ile-1)+ nthFibonacci(ile-2);
+    }
+    //### ZAD3B intermidiate Fibonnacie
+
+    public List<Integer> nthFibonacciB(int ile){
+       List<Integer> wynik= new LinkedList<>();
+       int pop=1,nast=0;
+        for (int i = 0; i < ile; i++) {
+            nast = nast+pop;
+            wynik.add(pop+nast);
+
+        }
+
+
+
+
+       return wynik;
+    }
 }

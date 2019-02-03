@@ -6,8 +6,15 @@ public class Algorytmy {
 
     public ArrayList<Integer> getPrime(int from, int to){
         ArrayList<Integer> wynik = new ArrayList<>();
-        if(to <2) {wynik.add(1); return wynik;}
         boolean isPrime = true;
+
+        //Warunki brzegowe
+        if (to < 2) {
+            wynik.add(1);
+            return wynik;
+        }
+        if (from < 2) from = 2;
+        // obliczanie
         for (int i = from; i <= to; i++) {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
@@ -19,6 +26,7 @@ public class Algorytmy {
             }
             isPrime = true;
         }
+        //wynik
         return wynik;
     }
 }

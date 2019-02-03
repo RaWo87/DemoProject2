@@ -12,7 +12,11 @@ public class Test {
         System.out.println(a.returnHalf("abcdefghijk"));
 
         System.out.println("Palimdrome: "+a.palindromeCheck("kaJaK"));
-        a.tekstAnalyzer("ala ma kota a kot zjada dinozaury");
+        a.tekstAnalyzer("ala ala ala kot kot b");
+
+            System.out.print(a.nthFibonacci(10));
+        System.out.println("\n"+a.nthFibonacciB(6));
+
     }
 
 }
