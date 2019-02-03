@@ -1,4 +1,6 @@
-package SDA;
+package SDA.UserCompare;
+
+import SDA.ToDoList.Priority;
 
 public class User {
     Priority priorytet;

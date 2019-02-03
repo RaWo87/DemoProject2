@@ -1,4 +1,6 @@
-package SDA;
+package SDA.UserCompare;
+
+import SDA.UserCompare.User;
 
 import java.util.Comparator;
 

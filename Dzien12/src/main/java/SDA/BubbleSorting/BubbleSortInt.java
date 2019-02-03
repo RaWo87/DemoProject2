@@ -1,10 +1,12 @@
-package SDA;
+package SDA.BubbleSorting;
 
-public class BubbleSortInt implements BubbleSort<Integer>{
+import SDA.BubbleSorting.BubbleSort;
+
+public class BubbleSortInt implements BubbleSort<Integer> {
 
 
     @Override
-    public Integer[] sort(Integer[] tablica) {
+    public Integer[] sortByBubbles(Integer[] tablica) {
             int temp;
             for (int j = 0; j < tablica.length; j++) {
                 for (int i = 0; i < tablica.length - 1; i++) {

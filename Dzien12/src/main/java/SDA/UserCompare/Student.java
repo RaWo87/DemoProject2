@@ -1,4 +1,4 @@
-package SDA;
+package SDA.UserCompare;
 
 public class Student implements Comparable<Student>{
     int iQ = 0;

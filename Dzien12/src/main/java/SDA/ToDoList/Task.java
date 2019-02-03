@@ -1,4 +1,4 @@
-package SDA;
+package SDA.ToDoList;
 
 import java.time.LocalDate;
 
