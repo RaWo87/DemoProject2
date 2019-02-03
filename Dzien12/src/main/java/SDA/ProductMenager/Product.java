@@ -7,6 +7,7 @@ public class Product {
     Integer howMany;
     Double prize;
     public Product(int id, String name, String desc, int ammount, double prize){
+
         this.prodName=name;
         this.id=id;
         this.desc=desc;

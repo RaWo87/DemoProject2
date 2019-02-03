@@ -81,7 +81,7 @@ public class Tester {
             System.out.println(x.getProdName());
         }
         ProductComparator porownywarka = new ProductComparator();
-        
+
         for (Product x: sklep.getAllProducts()
         ) {
 
